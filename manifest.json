@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "XBOSSKU",
+    "description": "XBOSSKU",
+    "version": "1.0",
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+		      "matches": ["https://cboss.kreditpintar.com/*"],
+          "js": ["content.js"],
+		      "css": ["me.css"]
+        }
+    ]
+      
+  }

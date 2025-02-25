@@ -1,0 +1,4 @@
+/* Remove Watermark & Pretetelan */
+#watermark, .network-dialog, .tips {
+	display: none !important;
+}
